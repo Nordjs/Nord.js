@@ -25,4 +25,4 @@ export default class Cards extends Resource {
 
 That's it. Happy coding.
 
-*Note: This uses [Nord's simple router](https://github.com/Nordjs/nord-simple-router) and will support more complex app strutures with the Nort advanced router.*
+*Note: This uses [Nord's simple router](https://github.com/Nordjs/nord-simple-router) and will support more complex app strutures with the upcoming advanced router.*
