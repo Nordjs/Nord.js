@@ -5,8 +5,8 @@ Nord.js brings together all the required Nord libraries to get the next generati
 
 Create an `index.js` or `server.js` in your project root:
 ```js
-let NordServer = require('nord').Server;
-let server = new NordServer('./app'); // same as let server = new NordServer();
+const NordServer = require('nord').Server;
+const server = new NordServer('./app'); // same as const server = new NordServer();
 server.start();
 ```
 
