@@ -10,7 +10,7 @@ const server = new NordServer('./app'); // same as const server = new NordServer
 server.start();
 ```
 
-Then create an `app` folder within that with any file, which exports an ES6 Class that extends Nord's Resource class with functions named after the HTTP Request methods (get, post, patch, etc) you want to cater for.
+Then create an `app` folder and a js file that exports an ES6 Class that extends Nord's Resource class with functions named after the HTTP Request methods (get, post, patch, etc) you want to cater for.
 
 E.g. Create `app/cards.js`
 ```js
